@@ -1,7 +1,11 @@
 # SEI-Project-1
 The concept of my game is to teach users about Javascript. This game's target market is people with beginner level knowledge of javascript. 
 
+# WorkFlow 
 
+![GitHub Logo](https://i.imgur.com/HwxTYH3.png)
+
+I used Trello to organize my agile workflow for this project.
 
 # Question or Code
 
