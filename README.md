@@ -44,3 +44,9 @@ User Story: The user is on the question main screen. The user must mouse over an
 
 ### Main Game Screen (Value Selected)  
 User Story: The user is on the question main screen. The user must mouse over and select which category and value they will take to choose for their question. This shows a value highlighted for selection. 
+
+
+![GitHub Logo](https://i.imgur.com/PUHDd2z.png)
+
+### Question Trivia Screen  
+User Story: The user will review the question and select the corresponding answer to that question. 
