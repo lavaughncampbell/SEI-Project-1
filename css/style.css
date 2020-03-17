@@ -63,8 +63,13 @@ body {
   text-align: center;
 }
 
-.player:hover {
+#play1:hover {
   background-color: yellow;
 }
+
+#play2:hover {
+  background-color: yellow;
+}
+
 
 
