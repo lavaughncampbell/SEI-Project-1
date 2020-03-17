@@ -22,3 +22,8 @@ User Story: The user selects how many players will be playing the game. Then the
 
 ### Instructions Screen 
 User Story: The user reads the instructions on how to play the game. Once directions are understood the user clicks the start button to begin the game. 
+
+![GitHub Logo](https://i.imgur.com/mdTMhrK.png)
+
+### Option Selection Screen 
+User Story: The game is now started and the user is selecting which option they will like to use to start gaining training points in the game
