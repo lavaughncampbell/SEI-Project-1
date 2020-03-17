@@ -56,3 +56,21 @@ User Story: The user will review the question and select the corresponding answe
 
 ### Question Trivia Screen (Question Answered)  
 User Story: The user has selected one of the available answers. 
+
+
+![GitHub Logo](https://i.imgur.com/ZI1iH7h.png)
+
+### Question Trivia Screen (Game Response)  
+User Story: The user is reading the response from the game if the answer was correct or not. The user will see the correct answer with a written example of the question to learn from
+
+
+![GitHub Logo](https://i.imgur.com/PAylmRh.png)
+
+### Score Update Screen (Game Response)  
+User Story: The user will get an update on their current score and player 2 will get ready for their turn. 
+
+
+![GitHub Logo](https://i.imgur.com/MyLgKne.png)
+
+### Player 2 Option Selection Screen (Game Response)  
+User Story: The 2nd user will now select question or code to start the 2nd round of the game. 
