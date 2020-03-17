@@ -18,4 +18,7 @@ I used Sketch to make my wireframes for this project.
 ### Loading Screen
 User Story: The user selects how many players will be playing the game. Then the user clicks on the start button which loads the game. 
 
+![GitHub Logo](https://i.imgur.com/lrJs3s1.png)
 
+### Instructions Screen 
+User Story: The user reads the instructions on how to play the game. Once directions are understood the user clicks the start button to begin the game. 
