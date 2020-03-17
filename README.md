@@ -37,5 +37,10 @@ User Story: The game is now started and the user is selecting which option they 
 
 ![GitHub Logo](https://i.imgur.com/nzCJvJP.png)
 
-### Main Game Screen (Code) 
+### Main Game Screen (Question Option)  
 User Story: The user is on the question main screen. The user must mouse over and select which category and value they will take to choose for their question. 
+
+![GitHub Logo](https://i.imgur.com/xhAwq78.png)
+
+### Main Game Screen (Value Selected)  
+User Story: The user is on the question main screen. The user must mouse over and select which category and value they will take to choose for their question. This shows a value highlighted for selection. 
