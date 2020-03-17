@@ -105,19 +105,3 @@ User Story: The 2nd user will submit the answer and the game will respond with c
 ### Score Update Screen (Player 2)   
 User Story: The user will see updates on the current score for both users and player 1 will be up next with the option to start round 3
 
-
-
-# Feature Checklist 
-
-**Loading Screen**
-* Add General Assembly Header 
-* Add Question || Code Header 
-* Add Player Select(1 Player, 2 Players) 
-* Add Lightsaber Style Selector (Mouse-Over) 
-* Add Start Button 
-
-**Instructions Screen**
-* Add Instructions Header 
-* Add Game Instructions Paragraph 
-* Add Start Button
-
