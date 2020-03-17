@@ -25,5 +25,11 @@ User Story: The user reads the instructions on how to play the game. Once direct
 
 ![GitHub Logo](https://i.imgur.com/mdTMhrK.png)
 
-### Option Selection Screen 
+### Option Selection Screen (Question) 
+User Story: The game is now started and the user is selecting which option they will like to use to start gaining training points in the game
+
+
+![GitHub Logo](https://i.imgur.com/V0uy7Ff.png)
+
+### Option Selection Screen (Code) 
 User Story: The game is now started and the user is selecting which option they will like to use to start gaining training points in the game
