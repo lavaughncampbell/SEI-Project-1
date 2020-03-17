@@ -107,6 +107,17 @@ User Story: The user will see updates on the current score for both users and pl
 
 
 
-# Feature Summary 
-This is where the checklist of features wil be added. 
-## Feature 1     ## Feature 2     ## Feature 3
+# Feature Checklist 
+
+**Loading Screen**
+* Add General Assembly Header 
+* Add Question || Code Header 
+* Add Player Select(1 Player, 2 Players) 
+* Add Lightsaber Style Selector (Mouse-Over) 
+* Add Start Button 
+
+**Instructions Screen**
+* Add Instructions Header 
+* Add Game Instructions Paragraph 
+* Add Start Button
+
