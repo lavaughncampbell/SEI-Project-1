@@ -33,3 +33,9 @@ User Story: The game is now started and the user is selecting which option they 
 
 ### Option Selection Screen (Code) 
 User Story: The game is now started and the user is selecting which option they will like to use to start gaining training points in the game
+
+
+![GitHub Logo](https://i.imgur.com/nzCJvJP.png)
+
+### Main Game Screen (Code) 
+User Story: The user is on the question main screen. The user must mouse over and select which category and value they will take to choose for their question. 
