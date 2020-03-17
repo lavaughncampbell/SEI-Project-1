@@ -50,3 +50,9 @@ User Story: The user is on the question main screen. The user must mouse over an
 
 ### Question Trivia Screen  
 User Story: The user will review the question and select the corresponding answer to that question. 
+
+
+![GitHub Logo](https://i.imgur.com/ZI1iH7h.png)
+
+### Question Trivia Screen (Question Answered)  
+User Story: The user has selected one of the available answers. 
