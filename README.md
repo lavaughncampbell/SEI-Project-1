@@ -72,5 +72,29 @@ User Story: The user will get an update on their current score and player 2 will
 
 ![GitHub Logo](https://i.imgur.com/MyLgKne.png)
 
-### Player 2 Option Selection Screen (Game Response)  
+### Player 2 Option Selection Screen 
 User Story: The 2nd user will now select question or code to start the 2nd round of the game. 
+
+
+![GitHub Logo](https://i.imgur.com/WJaFUAc.png)
+
+### Player 2 Option Selection Screen (Code)  
+User Story: The 2nd user will now select question or code to start the 2nd round of the game. 
+
+
+![GitHub Logo](https://i.imgur.com/2oxhnKf.png)
+
+### Player 2 Main Game Screen (Code Option)  
+User Story: The 2nd user will select a category and value. 
+
+
+![GitHub Logo](https://i.imgur.com/aNDZ08k.png)
+
+### Code Challenge Screen  
+User Story: The 2nd user will read the question and enter the correct syntax. 
+
+
+![GitHub Logo](https://i.imgur.com/kKU2qi9.png)
+
+### Code Challenge Screen (Code Submit/Game Respone)   
+User Story: The 2nd user will submit the answer and the game will respond with correct or incorrect. 
