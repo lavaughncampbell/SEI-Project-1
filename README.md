@@ -7,6 +7,10 @@ The concept of my game is to teach users about Javascript. This game's target ma
 
 I used Trello to organize my agile workflow for this project.
 
+![GitHub Logo](https://i.imgur.com/HSrhn0P.png)
+
+I used Sketch to make my wireframes for this project. 
+
 # Question or Code
 
 ![GitHub Logo](https://i.imgur.com/OGVXPNL.png)
