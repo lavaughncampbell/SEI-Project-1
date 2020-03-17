@@ -58,7 +58,7 @@ User Story: The user will review the question and select the corresponding answe
 User Story: The user has selected one of the available answers. 
 
 
-![GitHub Logo](https://i.imgur.com/ZI1iH7h.png)
+![GitHub Logo](https://i.imgur.com/TvjtH0M.png)
 
 ### Question Trivia Screen (Game Response)  
 User Story: The user is reading the response from the game if the answer was correct or not. The user will see the correct answer with a written example of the question to learn from
@@ -98,3 +98,9 @@ User Story: The 2nd user will read the question and enter the correct syntax.
 
 ### Code Challenge Screen (Code Submit/Game Respone)   
 User Story: The 2nd user will submit the answer and the game will respond with correct or incorrect. 
+
+
+![GitHub Logo](https://i.imgur.com/v1dGP6C.png)
+
+### Score Update Screen (Player 2)   
+User Story: The user will see updates on the current score for both users and player 1 will be up next with the option to start round 3
