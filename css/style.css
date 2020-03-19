@@ -200,7 +200,8 @@ body {
 .main-game .game-board {
   max-width: 700px;
   height: 450px;
-  background-color: white;
+  background-color: rgba(170, 170, 170, 0.1);
+  opacity: 17%;
   border-radius: 8px;
   margin: 0 auto;
 }
@@ -231,5 +232,14 @@ body {
   font-size: 18px;
   font-family: SF Pro Display;
   color: #FF2600;
-
 }
+
+.main-game .value-data {
+  text-align: center;
+  font-size: 30px;
+  font-family: SF Pro Display;
+  font-weight: bold;
+  color: #FFE81F;
+}
+
+
