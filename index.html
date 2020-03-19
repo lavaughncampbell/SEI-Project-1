@@ -1,27 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="http://allfont.net/allfont.css?fonts=star-jedi-hollow" rel="stylesheet" type="text/css" />
   <title>Question or Code</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="http://allfont.net/allfont.css?fonts=star-jedi-hollow" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:900&display=swap" rel="stylesheet">
+    <script defer src="js/app.js"></script>
 </head>
 <body>
+  <!-- THIS IS THE START SCREEN  -->
+  <div id="start-screen" class="start-screen">
 
-  <h1 id="gatitle">General Assembly's</h1>
+    <div class="header">
+      General Assembly's
+    </div>
 
-  <div class="gameTitle">
-  <h2 id="qTitle">Question</h2><h2 id="orTitle">||</h2><h2 id="cTitle">Code</h2>
+    <div class="title">
+      <u id="u">
+      <h2 id="question">Question</h2>
+      </u>
+      <h2 id="or">||</h2>
+      <u id="u2">
+      <h2 id="code">Code</h2>
+      </u>
+    </div>
+
+    <div class="button">
+      <button id="start-btn" class="start-btn">Start</button>
+    </div>
+  </div>
+  <!-- END OF START SCREEN  -->
+
+
+
+  <!-- START OF INSTRUCTIONS SCREEN -->
+  <div id="game-instructions" class="instructions-container hide">
+    <div class="header2">
+      instructions
+    </div>
+
+    <div class="instructions">
+      <p>
+        Question or Code is a jeopardy style game design
+        to improve your javascript skills. You can either select a question to answer a multiple choice question for a point amount. Or you can select code and write
+        the correct syntax to score the points.
+        <br>
+        <br>
+        Once you score 100 points you win!
+        <br>
+        <br>
+        If you’re up to the test click play below.</p>
+    </div>
+
+    <div class="controls">
+      <button id="play-btn" class="play-btn">Play</button>
+  </div>
+  </div>
+  <!-- END OF INSTRUCTIONS SCREEN -->
+
+
+  <!-- START OF OPTION SELECTION SCREEN -->
+  <div id="options-screen" class="options-screen hide">
+
+    <div class="one-player">
+      Player <div id="one">1</div>
+    </div>
+
+    <div class="choose-one">
+      Choose One
+    </div>
+
+    <div class="options-title">
+      <u id="u">
+      <h2 id="question-select">Question</h2>
+      </u>
+      <h2 id="or">||</h2>
+      <u id="u2">
+      <h2 id="code-select">Code</h2>
+      </u>
+    </div>
   </div>
 
-  <div class="player">
-    <h3 id ="num1">1</h3><h3 id="play1">Player</h3>
-    <h3 id ="num2">2</h3><h3 id="play2">Players</h3>
-  </div>
-
-  <div class="button">
-  <button id="start">START</button>
-  </div>
-
-<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

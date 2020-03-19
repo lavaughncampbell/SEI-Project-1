@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+}
+
+#gatitle {
+  display: flex;
+  justify-content: center;
+  font-family: 'Star Jedi Hollow', arial;
+  color: #FFE81F;
+}
+
+.gameTitle {
+  display: flex;
+  justify-content: center;
+}
+
+#qTitle {
+  font-family: Trajan Pro;
+  font-size: 50px;
+  color: #0F6EFF;
+  text-decoration: underline;
+}
+
+#orTitle {
+  font-family: SF Pro Display;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+#cTitle {
+  font-family: Trajan Pro;
+  font-size: 50px;
+  color: #FF2600;
+  text-decoration: underline;
+}
+
+.player {
+  display: flex;
+  justify-content: center;
+  font-family: Zilap Orion Personal Use;
+  color: #FFFFFF;
+}
+
+
+
+#num1 {
+  font-family: Trajan Pro;
+}
+
+#num2 {
+  font-family: Trajan Pro;
+}
+
+#start {
+  background: transparent;
+  border: transparent;
+  font-family: 'Star Jedi Hollow', arial;
+  font-size: 24px;
+  color: #AA7942;
+}
+
+.button {
+  text-align: center;
+}
+
+#play1:hover {
+  background-color: yellow;
+}
+
+#play2:hover {
+  background-color: yellow;
+}
+
+
