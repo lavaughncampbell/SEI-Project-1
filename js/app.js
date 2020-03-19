@@ -51,7 +51,11 @@ const game = {
   selectOption: function() {
     // select question or code
     console.log("good option")
-  }
+  },
+
+  // mainGame: function() {
+  //   // main game screen select your category and value
+  // }
 
 }
 

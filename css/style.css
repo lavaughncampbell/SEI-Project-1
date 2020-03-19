@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
   margin: 0;
   padding: 0;
 
@@ -185,4 +185,51 @@ body {
 .hide {
   display: none;
 }
+/*END OF STYLE FOR OPTIONS SCREEN*/
 
+
+/*START OF STYLE FOR MAIN GAME SCREEN*/
+.main-game {
+  height: 600px;
+  width: 800px;
+  background-color: black;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+
+.main-game .game-board {
+  max-width: 700px;
+  height: 450px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.main-game .main-game-questions {
+  padding-top: 30px;
+}
+
+#question-title {
+  color: #0F6EFF;
+  font-family: Trajan Pro;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+#u3 {
+  color: #0F6EFF;
+}
+
+.main-game .categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  font-size: 18px;
+  font-family: SF Pro Display;
+  color: #FF2600;
+
+}
