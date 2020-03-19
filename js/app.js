@@ -48,9 +48,10 @@ const game = {
   // }
 
 
-  // selectOption: function() {
-  //   // select question or code
-  // }
+  selectOption: function() {
+    // select question or code
+    console.log("good option")
+  }
 
 }
 
@@ -87,6 +88,10 @@ const showInstructions = document.querySelector('#game-instructions')
 const playButton = document.querySelector('#play-btn')
 // get the options screen to show
 const optionsScreen = document.querySelector('#options-screen')
+// get the option to select question for your category
+const questionSelect = document.querySelector('#question-select')
+// get the option to select question for your category
+const codeSelect = document.querySelector('#code-select')
 
 // listener for start button click
 startButton.addEventListener('click', () => {
@@ -94,8 +99,18 @@ startButton.addEventListener('click', () => {
   game.startGame()
 })
 
+// listener for play button click
 playButton.addEventListener('click', () => {
   // call the play game method in your game object.
   game.playGame()
+})
+
+// listener for question header clicked
+questionSelect.addEventListener('click', () => {
+  game.selectOption()
+})
+
+codeSelect.addEventListener('click', () => {
+  game.selectOption()
 })
 
