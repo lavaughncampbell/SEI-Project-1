@@ -49,8 +49,11 @@ const game = {
 
 
   selectOption: function() {
-    // select question or code
-    console.log("good option")
+    // when you click the option hide the selection screen
+    optionsScreen.classList.add('hide')
+    // show the main game screen
+    mainGame.classList.remove('hide')
+
   },
 
   // mainGame: function() {
@@ -96,6 +99,8 @@ const optionsScreen = document.querySelector('#options-screen')
 const questionSelect = document.querySelector('#question-select')
 // get the option to select question for your category
 const codeSelect = document.querySelector('#code-select')
+// get the main game screen to show
+const mainGame = document.querySelector('#main-game')
 
 // listener for start button click
 startButton.addEventListener('click', () => {
@@ -117,4 +122,6 @@ questionSelect.addEventListener('click', () => {
 codeSelect.addEventListener('click', () => {
   game.selectOption()
 })
+
+
 

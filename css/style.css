@@ -3,10 +3,9 @@
 }
 
 body {
-  background-color: white;
+  background-color: black;
   margin: 0;
   padding: 0;
-
 }
 
 
@@ -192,7 +191,8 @@ body {
 .main-game {
   height: 600px;
   width: 800px;
-  background-color: black;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
   margin: 30px auto;
   border-radius: 8px;
 }
@@ -242,4 +242,15 @@ body {
   color: #FFE81F;
 }
 
+.hide {
+  display: none;
+}
 
+.main-game .value-data tr {
+  background-color: rgba(216, 216, 216, 0.8);
+}
+
+.main-game .value-data td:hover {
+  background-color: #FF2600;
+  opacity:
+}
