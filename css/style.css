@@ -240,6 +240,7 @@ body {
   font-family: SF Pro Display;
   font-weight: bold;
   color: #FFE81F;
+
 }
 
 .hide {
@@ -254,3 +255,100 @@ body {
   background-color: #FF2600;
   opacity:
 }
+/*END OF STYLE FOR MAIN GAME SCREEN*/
+
+
+/*START OF STYLE FOR QUESIONS ANSWER SCREEN*/
+.questions-screen {
+  height: 600px;
+  width: 800px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+
+.questions-screen .question-board {
+  max-width: 700px;
+  height: 450px;
+  background-color: rgba(170, 170, 170, 0.1);
+  opacity: 17%;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.questions-screen .questions-for-game {
+  padding-top: 30px;
+}
+
+#question-answer-title {
+  color: #0F6EFF;
+  font-family: Trajan Pro;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+#u4 {
+  color: #0F6EFF;
+}
+
+#question-choice {
+  font-family: SF Pro Display;
+  background-color: rgba(170, 121, 66, 0.8);
+  border: 1px solid yellow;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 120px auto;
+  max-width: 80%;
+  border-radius: 5px;
+
+}
+
+.btn-grid {
+  font-family: SF Pro Display;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 50px auto;
+  max-width: 80%;
+}
+
+.btn {
+  font-family: SF Pro Display;
+  color: #FFFFFF;
+  background-color: rgba(170, 121, 66, 0.8);
+  border: 1px solid yellow;
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: #0F6EFF;
+}
+
+.btn.correct {
+  background-color: green;
+}
+
+.btn.wrong {
+  background-color: red;
+}
+
+
+.question-controls {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.next-btn {
+  font-family: 'Star Jedi Hollow', arial;
+  font-size: 24px;
+  color: #FFE81F;
+  border: transparent;
+  background-color: transparent;
+}
+

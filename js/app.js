@@ -56,11 +56,26 @@ const game = {
 
   },
 
-  // mainGame: function() {
-  //   // main game screen select your category and value
-  // }
+  valueSelected: function() {
+    // when you click a box for $100 etc. This will take you to the q page.
+    mainGame.classList.add('hide')
+    // show the question answer screen
+    questionScreen.classList.remove('hide')
+  },
+
 
 }
+
+// const gameQuestions = [
+//   {
+//     question: "Declaring and assigning a variable at the same time is called?"
+//     answers: [
+//       { text: 'Intialization', correct:true }
+//       { text: 'Expression', correct:false}
+//     ]
+//   }
+// ]
+
 
 
 
@@ -101,6 +116,10 @@ const questionSelect = document.querySelector('#question-select')
 const codeSelect = document.querySelector('#code-select')
 // get the main game screen to show
 const mainGame = document.querySelector('#main-game')
+// get the game table and the value card clicked here
+const tableClick = document.querySelector('#value-data')
+// get the questions screen here
+const questionScreen = document.querySelector('#questions-screen')
 
 // listener for start button click
 startButton.addEventListener('click', () => {
@@ -118,9 +137,14 @@ playButton.addEventListener('click', () => {
 questionSelect.addEventListener('click', () => {
   game.selectOption()
 })
-
+// listener for code header clicked. Switch logic to questions
 codeSelect.addEventListener('click', () => {
   game.selectOption()
+})
+
+// listener for value selected on the main game screen. go to question screen
+tableClick.addEventListener('click', () => {
+  game.valueSelected()
 })
 
 
