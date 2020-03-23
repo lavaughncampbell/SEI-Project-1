@@ -3,6 +3,7 @@
 <head>
   <title>Question or Code</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link href="http://allfont.net/allfont.css?fonts=star-jedi-hollow" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:900&display=swap" rel="stylesheet">
     <script defer src="js/app.js"></script>
@@ -102,21 +103,21 @@
       </div>
 
       <div id="value-data" class="value-data">
-       <table align="center" border="1"  width="700" height="320">
+       <table align="center" border="1"  width="700" height="320" id="table-board">
         <tr>
-          <td>$100</td><td>$100</td><td>$100</td><td>$100</td><td>$100</td>
+          <td id="00">$100</td><td id="10">$100</td><td id="20">$100</td><td id="30">$100</td><td id="40">$100</td>
         </tr>
          <tr>
-          <td>$200</td><td>$200</td><td>$200</td><td>$200</td><td>$200</td>
+          <td id="01">$200</td><td id="11">$200</td><td id="21">$200</td><td id="31">$200</td><td id="41">$200</td>
         </tr>
          <tr>
-          <td>$300</td><td>$300</td><td>$300</td><td>$300</td><td>$300</td>
+          <td id="02">$300</td><td id="12">$300</td><td id="22">$300</td><td id="32">$300</td><td id="42">$300</td>
         </tr>
          <tr>
-          <td>$400</td><td>$400</td><td>$400</td><td>$400</td><td>$400</td>
+          <td id="03">$400</td><td id="13">$400</td><td id="24">$400</td><td id="33">$400</td><td id="43">$400</td>
         </tr>
          <tr>
-          <td>$500</td><td>$500</td><td>$500</td><td>$500</td><td>$500</td>
+          <td id="04">$500</td><td id="14">$500</td><td id="25">$500</td><td id="34">$500</td><td id="44">$500</td>
         </tr>
       </table>
       </div>
@@ -146,6 +147,74 @@
     </div>
   </div>
     </div>
+    <!-- END OF THE QUESTION SCREEN -->
+
+    <!-- START OF THE SCORE SCREEN -->
+  <div id="score-screen" class="score-screen hide">
+    <div class="score-for-game">
+      SCORE
+    </div>
+    <div id="score-board" class="score-board">
+      <div class="titles-and-numbers">
+      <div class="player-score-titles">
+        <div class="player-one-score">Player One<div id="p2-updated-score" class="player-one-num animated shake">0</div></div>
+        <!-- <div id="player-one-score" class="player-one-num animated shake">0</div> -->
+    </div>
+
+    <div class="player-score-numbers">
+      <div class ="p2-player-two-score">Player Two <div id="player-one-score" class="player-one-num animated bounce">0</div></div>
+      <!-- <div id="player-one-score" class="player-one-num animated shake">0</div> -->
+    </div>
+  </div>
+
+    <div class="player-two-space">
+      <div class="player-two-score"><div id="two-score">- UP NEXT</div></div>
+    <div class="score-controls">
+      <button id="score-start-btn" class="score-start-btn animated fadeIn">START</button>
+    </div>
+    </div>
+    </div>
+  </div>
+  <!-- END OF THE SCORE SCREEN -->
+
+  <!-- START OF PLAY 2 OPTIONS SCREEN -->
+  <div id="p2-options-screen" class="p2-options-screen hide">
+
+    <div class="two-player">
+      Player <div id="p2two">2</div>
+    </div>
+
+    <div class="p2-choose-one">
+      Choose One
+    </div>
+
+    <div class="p2-options-title">
+      <u id="p2-u">
+      <h2 id="p2-question-select">Question</h2>
+      </u>
+      <h2 id="p2-or">||</h2>
+      <u id="p2-u2">
+      <h2 id="p2-code-select">Code</h2>
+      </u>
+    </div>
+  </div>
+  <!-- END OF PLAY 2 OPTIONS SCREEN -->
+
+  <!-- START OF GAME RESULT SCREEN -->
+  <div id="win-screen" class="win-screen hide">
+    <div class="win-game">
+      SCORE
+    </div>
+    <div id="win-board" class="win-board">
+      <div class="winner-score animated bounce" id="winner-score"></div></div>
+      <div class = winner-button>
+      <button id="play-again-btn" class="play-again-btn animated fadeIn">PLAY AGAiN</button>
+    </div>
+  </div>
+  </div>
+  <!-- END OF GAME RESULT SCREEN -->
+
+
 
 </body>
 </html>

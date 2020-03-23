@@ -351,4 +351,231 @@ body {
   border: transparent;
   background-color: transparent;
 }
+/*END OF QUESTIONS ANSWERS SCREEN */
 
+/*START OF SCORE SCREEN*/
+.score-screen {
+  height: 600px;
+  width: 800px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+
+.score-screen .player-one-score {
+  font-size: 24px;
+  font-family: Zilap Orion Personal Use;
+  color: #FFFFFF;
+  padding-top: 50px;
+  padding-left:70px;
+  margin: 30px;
+}
+
+.score-screen .player-score-titles {
+  display: flex;
+  flex-direction: row;
+}
+
+.score-screen .player-score-numbers {
+  display: flex;
+  justify-content: row;
+}
+
+
+#player-one-score {
+  color: #FFE81F;
+  font-size: 36px;
+  font-family: SF Pro Display;
+  animation-duration: 3s;
+  padding-left:50px;
+  margin: 30px;
+}
+
+#p2-updated-score {
+  color: #FFE81F;
+  font-size: 36px;
+  font-family: SF Pro Display;
+  animation-duration: 3s;
+  padding-left:100px;
+  margin: 30px;
+}
+
+
+
+.score-screen .titles-and-numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.score-screen .p2-player-two-score {
+  font-size: 24px;
+  font-family: Zilap Orion Personal Use;
+  color: #FFFFFF;
+  padding-top: 50px;
+  padding-left:100px;
+  margin: 30px;
+}
+
+
+#one-score {
+  font-family: Trajan Pro;
+  font-size: 20px;
+}
+
+.score-screen .player-two-score {
+  display: flex;
+  font-size: 30px;
+  font-family: Zilap Orion Personal Use;
+  color: #FFFFFF;
+}
+
+#two-score {
+  font-family: Trajan Pro;
+  font-size: 20px;
+  padding: 14px;
+}
+
+.score-screen .score-start-btn {
+  font-size: 24px;
+  font-family: 'Star Jedi Hollow', arial;
+  font-weight: 100;
+  color: #FFFFFF;
+  background-color: #FF2600;
+  border: transparent;
+  display: flex;
+  justify-content: center;
+  animation-delay: 1s;
+}
+
+.score-screen .player-two-space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 200px;
+}
+/*END OF SCORE SCREEN*/
+
+
+.p2-options-screen {
+  height: 600px;
+  width: 800px;
+  background-color: black;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+
+.p2-options-screen .two-player {
+  font-size: 36px;
+  font-family: Zilap Orion Personal Use;
+  display: flex;
+  color: #FFFFFF;
+  justify-content: center;
+  padding: 50px;
+  padding-right: 12px;
+}
+
+#p2two {
+  font-family: Trajan Pro;
+  font-size: 32px;
+  padding-top: 11px;
+}
+
+.p2-options-screen .p2-choose-one {
+  font-size: 21px;
+  font-family: Trajan Pro;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin: 30 auto;
+  padding-left: 20px;
+}
+
+.p2-options-screen .p2-options-title {
+  font-size: 36px;
+  font-family: Trajan Pro;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  padding-left: 5px;
+}
+
+#p2-question-select {
+  color: #0F6EFF;
+}
+
+#p2-question-select:hover {
+  background-color: #FFE81F;
+}
+
+#p2-code-select {
+  color: #FF2600;
+}
+
+#p2-code-select:hover {
+  background-color: #FFE81F;
+}
+
+#p2-u {
+  color: #AAAAAA;
+}
+
+#p2-u2 {
+  color: #FF2600;
+}
+
+#p2-or {
+  color: #FFFFFF;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+
+
+
+
+
+.win-screen {
+  height: 600px;
+  width: 800px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+
+.win-screen .winner-score {
+  font-size: 36px;
+  font-family: Trajan Pro;
+  color: #FFFFFF;
+  padding-top: 50px;
+  padding-left:70px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  padding-right: 50px;
+
+}
+
+
+.win-screen .play-again-btn {
+  font-size: 20px;
+  font-family: 'Star Jedi Hollow', arial;
+  font-weight: 100;
+  color: #FFFFFF;
+  background-color: #FF2600;
+  border: transparent;
+  animation-delay: 1s;
+}
+
+.win-screen .winner-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 290px;
+}
